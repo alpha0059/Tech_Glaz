@@ -1,0 +1,125 @@
+html {
+    padding: none;
+    margin: none;
+    font-family: serif;
+    background-color: #fff;
+background-image: url(c3ad2ce01791503e44f2c0267785874d.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+body{
+    backdrop-filter: blur(5px);
+    margin: 8rem;
+}
+
+body .contaner{
+    display: flex;
+    justify-content: center;
+    border: 0.2rem solid black;
+    border-radius: 2rem;
+    box-shadow: 7px 5px 10px black;
+    border: none;
+}
+body .contaner .contaner1{
+
+    padding: 2rem;
+}
+
+body .contaner .contaner2{
+    margin-top: 10rem;
+    width: 30rem;
+    height: 15rem;
+    background-color: rgb(154, 145, 127);
+    box-shadow: 7px 5px 10px black;
+    border-radius: 100%;
+    /* background: transparent; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+
+}
+body .contaner .contaner2 form{
+    display: flex;
+    flex-direction: column;
+    padding: none;
+    border-radius: 50%;
+    box-shadow: 7px 5px 10px black;
+    background: transparent;
+
+    background-color: #fff;
+}
+
+body .contaner .contaner2 form:hover{
+
+    backdrop-filter: blur(5px);
+}
+
+body .contaner .contaner2 form input{
+    border-radius: 2rem;
+    border: none;
+    box-shadow: 7px 5px 10px black;
+    padding: 0.5rem;
+    background: transparent;
+}  
+
+
+body .contaner .contaner2 form button{
+    width: 80%;
+    padding: 0.2rem;
+    justify-content: center;
+    background-color: #805757;
+    border-radius: 2rem;
+    color: white;
+    font-size: 1.5rem;
+    border: none;
+    box-shadow: 7px 5px 10px black;
+}
+
+body .contaner .contaner2 form button:hover{
+    cursor: pointer;
+    background-color: #793737;
+    color: rgb(133, 234, 254);
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width:991px){
+
+    html{
+        font-size: 60%;
+    }
+}
+
+@media (max-width:768px){
+
+    html{
+        font-size: 55%;
+    }
+
+    body .contaner .contaner1 img{
+        width: 20rem;
+    }
+    body .contaner{
+        flex-direction: row;
+
+
+    }
+
+}    
+@media (max-width:450px){
+
+    html{
+        font-size: 50%;
+    }
+
+
+}    
